@@ -1,4 +1,5 @@
-console.log("Real Project Started");
-console.log("Version 2");
-console.log("Third Version");
-console.log("Final Version");
+import { calculateFinalPrice } from "./priceUtils.js";
+
+let finalPrice = calculateFinalPrice(3000, 200);
+
+console.log("Final Price:", finalPrice);
